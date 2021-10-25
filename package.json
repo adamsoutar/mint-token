@@ -1,0 +1,24 @@
+{
+  "name": "mint-token",
+  "version": "1.0.0",
+  "description": "Mint a signed JWT in one command",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Adam Soutar",
+  "license": "0BSD",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "bin": {
+    "mint-token": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamsoutar/mint-token.git"
+  }
+}
